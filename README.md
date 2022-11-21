@@ -26,13 +26,28 @@
   
  ## Configuration 
 
-  * you juste have to put your token into the "token.id" file in /config/ folder. 
-  * if you use an another account as a selfbot, i recommend you to put also in the id.id file your personal discord id. 
+  * you juste have to put your token into the **token.id** file in /config/ folder. 
+  * if you use an another account as a Selfbot, i recommend you to put also in the id.id file your personal discord id and disable "selfing" option in **share.conf**.
   > to get it in discord desktop/web just right click on your profile in your dms or in a group and click copy id. 
   
-  * you can choose to configure "share.id" wich is use to tell the bot to who he can answer commands. 
-  * You can choose to configure "prefixes.id", theses are the prefixes you will use in order to do any commands. 
-  
+  * you can choose to configure **share.conf** wich is use to tell the bot to who he can answer commands. 
+  * You can choose to configure **prefixes.conf**, theses are the prefixes you will use in order to do any commands. 
+   > by default it's "." and ">"
+   
   ## Usage 
+  
+  - ping command
+  ```py 
+     .ping
+  ```
+  > get bot pong in ms
+ 
+ - embed command
+  ```py 
+     .embed {title = your title ; description=your description ; author=your author text ; color=255,255,255; image=https://test.com/yourimage.jpg; url=https://google.fr }
+  ```
+  > to make really cool embed ! 
+ 
+  
   
   
